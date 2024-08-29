@@ -3,7 +3,7 @@
     "name": "Temeperature Converter",
     "short-name": "Temeperature Converter",
     "description": "Basic Temeperature convereter application",
-    "start_url": "/learning_pwa/",
+    "start_url": "/",
     "background_color": "#2f3d58",
     "theme_color": "#2f3d58",
     "orientation": "any",

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR" dir="ltr">
     <head>
-        <link rel="manifest" href="/larning_pwa/manifest.json">
+        <link rel="manifest" href="/manifest.json">
         <link rel="stylesheet" href="converter.css">
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -29,7 +29,7 @@
         <script src="converter.js"></script>
         <script>
             if ('serviceWorker' in navigator) {
-                navigator.serviceWorker.register('/sw.js', { scope: '/learning_pwa/'});
+                navigator.serviceWorker.register('/sw.js', { scope: '/'});
             }
         </script>         
     </body>
